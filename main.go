@@ -8,7 +8,7 @@ import (
 
 const exitName = "Exit"
 
-var ExitAnalyzer = &analysis.Analyzer{
+var Analyzer = &analysis.Analyzer{
 	Name: "exitcheck",
 	Doc:  "check for os.Exit calls",
 	Run:  run,
